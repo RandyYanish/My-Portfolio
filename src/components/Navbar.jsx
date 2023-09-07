@@ -13,9 +13,9 @@ export const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-steel-dark text-grey-light'>
             <div>
-                <h1 className=' font-thin text-2xl italic font-serif'>Randall Taylor</h1>
+                <h1 className=' font-thin text-3xl italic font-serif'>Randall Taylor</h1>
             </div>
             {/* menu */}
             <ul className='hidden md:flex gap-x-8'>
@@ -54,7 +54,7 @@ export const Navbar = () => {
                 className={
                     !nav
                         ? 'hidden'
-                        : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+                        : 'absolute top-0 left-0 w-full h-screen bg-steel-dark text-grey-light flex flex-col justify-center items-center'
                 }
             >
                 <li className='py-6 text-2xl'>

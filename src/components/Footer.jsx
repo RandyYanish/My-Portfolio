@@ -1,20 +1,10 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import {
-    FaBars,
-    FaGithub,
-    FaLinkedin,
-    FaTimes,
-} from 'react-icons/fa'
-import './Navbar.css';
+import React from 'react';
+import './Footer.css';
 
-export const Navbar = () => {
-    const [nav, setNav] = useState(false);
-    const handleClick = () => setNav(!nav);
-
+export const Footer = () => {
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-            
-        </div>
+        <footer className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-steel-dark text-grey-light '>
+            <h1 className=''>Hello World</h1>
+        </footer>
     );
 };
