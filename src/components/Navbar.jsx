@@ -57,30 +57,30 @@ export const Navbar = () => {
                         : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
                 }
             >
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-2xl'>
                     <NavLink onClick={handleClick} to='/'>
                         Home
                     </NavLink>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-2xl'>
                     {' '}
                     <NavLink onClick={handleClick} to='/about'>
                         About
                     </NavLink>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-2xl'>
                     {' '}
                     <NavLink onClick={handleClick} to='/skills'>
                         Skills
                     </NavLink>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-2xl'>
                     {' '}
                     <NavLink onClick={handleClick} to='/projects'>
                         Projects
                     </NavLink>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-2xl'>
                     {' '}
                     <NavLink onClick={handleClick} to='/contact'>
                         Contact
@@ -90,20 +90,20 @@ export const Navbar = () => {
             {/* Social icons */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://www.linkedin.com/in/randalltaylor98/'
                         >
-                            Linkedin <FaLinkedin size={30} />
+                            Linkedin<FaLinkedin size={40} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://github.com/randyyanish'
                         >
-                            Github <FaGithub size={30} />
+                            Github<FaGithub size={40} />
                         </a>
                     </li>
                 </ul>
