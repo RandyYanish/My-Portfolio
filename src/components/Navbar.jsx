@@ -94,6 +94,8 @@ export const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://www.linkedin.com/in/randalltaylor98/'
+                            target='_blank' // Open in a new tab
+                            rel='noopener noreferrer' // Security best practice
                         >
                             Linkedin<FaLinkedin size={40} />
                         </a>
@@ -102,6 +104,8 @@ export const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://github.com/randyyanish'
+                            target='_blank' // Open in a new tab
+                            rel='noopener noreferrer' // Security best practice
                         >
                             Github<FaGithub size={40} />
                         </a>
