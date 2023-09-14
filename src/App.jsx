@@ -1,14 +1,22 @@
+// packages
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { Navbar } from './components/Navbar.jsx';
-import { Footer } from './components/Footer';
+// components
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='App'>
-      <Navbar />
-      <Outlet /> {/* Renders child routes */}
-      <Footer />
+    <div className='App flex-col'>
+      <nav className='Navbar container'>
+        <Navbar />
+      </nav>
+      <div className='container'> {/* Container for Outlet content */}
+        <Outlet /> {/* Renders child routes */}
+      </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

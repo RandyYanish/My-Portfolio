@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa'
 import './Navbar.css';
 
-export const Navbar = () => {
+function Navbar() {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
 
@@ -115,3 +115,5 @@ export const Navbar = () => {
         </div>
     );
 };
+
+export default Navbar;
