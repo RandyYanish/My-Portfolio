@@ -7,14 +7,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='App flex-col'>
-      <nav className='Navbar container'>
+    <div className='flex flex-col min-h-screen bg-steel-light'>
+      <nav className='p-4 z-10'>
         <Navbar />
       </nav>
-      <div className='container'> {/* Container for Outlet content */}
+      <div className='flex-grow p-4 z-0'> {/* Container for Outlet content */}
         <Outlet /> {/* Renders child routes */}
       </div>
-      <footer>
+      <footer className='p-4 z-0'>
         <Footer />
       </footer>
     </div>
