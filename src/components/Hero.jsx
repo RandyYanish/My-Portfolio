@@ -11,7 +11,7 @@ function Hero() {
     };
 
     return (
-        <div id='Hero' className='flex-col items-center px-24 h-auto'>
+        <div id='Hero' className='flex-col items-center lg:px-24 px-4 h-auto'>
             <div className='text-left flex flex-col md:flex-row md:items-center'>
                 <div className='md:w-1/2'>
                     <h1 className='font-serif text-metal-dark text-5xl duration-500 flex-nowrap'>

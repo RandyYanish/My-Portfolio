@@ -5,15 +5,31 @@ import {
     FaGithub,
     FaLinkedin,
     FaTimes,
+    FaSun,
+    FaMoon,
 } from 'react-icons/fa'
 import './Navbar.css';
 
 function Navbar() {
     const [nav, setNav] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
     const handleClick = () => setNav(!nav);
 
+    const toggleDarkMode = () => {
+        setIsDarkMode(!isDarkMode);
+    };
+
     return (
-        <div className='w-full h-[80px] flex sm:justify-center justify-end items-center px-4 bg-steel-dark text-grey-light'>
+        <div className='w-full h-[80px] flex justify-evenly items-center px-4 bg-steel-dark text-grey-light'>
+            {/* Dark Mode Switch */}
+            <div className='flex px-4 text-grey-light'>
+                {isDarkMode ? (
+                    <FaSun onClick={toggleDarkMode} className='cursor-pointer' />
+                ) : (
+                    <FaMoon onClick={toggleDarkMode} className='cursor-pointer'/>
+                )}
+            </div>
             {/* menu */}
             <ul className='hidden md:flex gap-x-8'>
                 <li className='nav-list-item'>
@@ -42,6 +58,8 @@ function Navbar() {
                     </NavLink>
                 </li>
             </ul>
+            {/* Empty Spacer */}
+            <div className='flex px-4 text-grey-light'></div>
             {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10'>
                 {!nav ? <FaBars /> : <FaTimes />}
