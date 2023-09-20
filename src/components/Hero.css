@@ -3,14 +3,14 @@
     padding: 0px;
 }
 
-.button {
+.explore-btn {
     cursor: pointer;
     position: relative;
     transition: all 1s;
 }
 
-.button::after,
-.button::before {
+.explore-btn::after,
+.explore-btn::before {
     content: ' ';
     width: 10px;
     height: 10px;
@@ -19,26 +19,26 @@
     transition: all 1s;
 }
 
-.button::after {
+.explore-btn::after {
     top: -1px;
     left: -1px;
     border-top: 5px solid var(--metal);
     border-left: 5px solid var(--metal);
 }
 
-.button::before {
+.explore-btn::before {
     bottom: -1px;
     right: -1px;
     border-bottom: 5px solid var(--metal);
     border-right: 5px solid var(--metal);
 }
 
-.button:hover {
+.explore-btn:hover {
     border-top-right-radius: -1px;
     border-bottom-left-radius: -1px;
 }
 
-.button:hover::before,.button:hover::after {
+.explore-btn:hover::before,.explore-btn:hover::after {
     width: 110%;
     height: 100%;
 }

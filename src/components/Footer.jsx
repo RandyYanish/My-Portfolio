@@ -9,11 +9,11 @@ function Footer() {
     const handleClick = () => setNav(!nav);
 
     return (
-        <footer className='bottom-0 w-full h-[80px] flex justify-between items-center px-4 bg-steel-dark text-grey-light'>
+        <footer className='bottom-0 w-full h-[80px] flex justify-evenly items-center px-4 bg-steel-dark text-grey-light'>
 
             <div className=''>
                 <a
-                    className='flex justify-between items-center w-full text-gray-300'
+                    className='flex items-center w-full text-gray-300 hover:text-ice-light hover:scale-125 duration-150'
                     href='https://www.linkedin.com/in/randalltaylor98/'
                     target='_blank' // Open in a new tab
                     rel='noopener noreferrer' // Security best practice
@@ -22,11 +22,11 @@ function Footer() {
                 </a>
             </div>
             <div>
-                <button className='bg-ice-dark  p-2 px-4 rounded-full font-sans' onClick={handleClick} to='/' >Contact</button>
+                <button className='bg-ice-dark  p-2 px-4 rounded-full font-sans hover:scale-125 hover:shadow-2xl hover:shadow-ice duration-150' onClick={handleClick} to='/' >Contact</button>
             </div>
             <div className=''>
                 <a
-                    className='flex justify-between items-center w-full text-gray-300'
+                    className='flex items-center w-full text-gray-300 hover:text-ice-light hover:scale-125 duration-150'
                     href='https://github.com/randyyanish'
                     target='_blank' // Open in a new tab
                     rel='noopener noreferrer' // Security best practice
