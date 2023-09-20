@@ -3,7 +3,37 @@
 @tailwind utilities;
 
 :root{
-  --primary-btn: #000000;
+  --grey-light: #D7D7D7;
+  --grey: #4D4D4D;
+  --grey-dark: #000000;
+
+  --steel-light: #D9DEDF;
+  --steel: #74868A;
+  --steel-dark: #363E40;
+
+  --metal-light: #D4E0E4;
+  --metal: #58808E;
+  --metal-dark: #26383E;
+
+  --ice-light: #DAE3F2;
+  --ice: #4773C1;
+  --ice-dark: #213861;
+
+  --blue-light: #DBD9FF;
+  --blue: #0C00FE;
+  --blue-dark: #050064;
+
+  --purple-light: #E6DCFC;
+  --purple: #723BED;
+  --purple-dark: #2E0B7B;
+
+  --magenta-light: #F9DFF4;
+  --magenta: #A9238F;
+  --magenta-dark: #561249;
+
+  --yellow-light: #F6FECE;
+  --yellow: #CEF707;
+  --yellow-dark: #A7C800;
 }
 
 * {

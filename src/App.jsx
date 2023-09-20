@@ -11,8 +11,10 @@ function App() {
       <nav className='p-4 z-10'>
         <Navbar />
       </nav>
-      <div className='flex-grow p-4 z-0'> {/* Container for Outlet content */}
-        <Outlet /> {/* Renders child routes */}
+      <div className='flex-grow p-4 z-1'> {/* Container for Outlet content */}
+        <div className='overflow-y-auto max-h-full'>
+          <Outlet /> {/* Renders child routes */}
+        </div>
       </div>
       <footer className='p-4 z-0'>
         <Footer />
