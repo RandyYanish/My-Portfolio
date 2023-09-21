@@ -18,7 +18,7 @@ function Hero() {
                         Randall Taylor
                     </h1>
                     <p className='line-1 anim-typewriter text-ice-dark'>
-                        Thanks for stopping by!
+                        Full-Stack Dev.
                     </p>
                     <div className='hidden md:flex justify-center items-center mt-8'>
                         <button

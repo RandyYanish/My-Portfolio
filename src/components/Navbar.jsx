@@ -23,7 +23,7 @@ function Navbar() {
     return (
         <div className='w-full h-[80px] flex justify-evenly items-center px-4 bg-steel-dark text-grey-light'>
             {/* Dark Mode Switch */}
-            <div className='flex px-4 text-grey-light'>
+            <div className='flex px-4 text-grey-light hover:scale-150 duration-150 hover:text-yellow-light'>
                 {isDarkMode ? (
                     <FaSun onClick={toggleDarkMode} className='cursor-pointer' />
                 ) : (
