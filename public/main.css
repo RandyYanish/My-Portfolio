@@ -942,6 +942,56 @@ code {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+:is(.dark .dark\:bg-blue) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 0 254 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-steel-dark) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 62 64 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-ice-dark) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 56 97 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-metal-dark) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 56 62 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-grey-dark) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-grey) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 77 77 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gray-700) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gray-500) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gray-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gray-950) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
