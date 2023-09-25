@@ -14,16 +14,16 @@ function Hero() {
         <div id='Hero' className='flex-col items-center lg:px-24 px-4 h-auto'>
             <div className='text-left flex flex-col md:flex-row md:items-center'>
                 <div className='md:w-1/2'>
-                    <h1 className='font-serif text-metal-dark text-5xl duration-500 flex-nowrap'>
+                    <h1 className='font-serif text-metal-dark dark:text-purple-light text-5xl duration-500 flex-nowrap'>
                         Randall Taylor
                     </h1>
-                    <p className='line-1 anim-typewriter text-ice-dark'>
+                    <p className='typewriter anim-typewriter text-ice-dark dark:text-ice'>
                         Full-Stack Dev.
                     </p>
                     <div className='hidden md:flex justify-center items-center mt-8'>
                         <button
                             onClick={handleClick}
-                            className='explore-btn rounded-full hover:bg-ice-light hover:text-magenta-dark bg-ice-dark py-2 px-8 text-steel-light text-3xl font-serif'>
+                            className='explore-btn rounded-full hover:bg-ice-light hover:text-magenta-dark bg-ice-dark py-2 px-8 text-steel-light text-3xl font-serif dark:hover:bg-magenta-dark dark:hover:text-ice-light dark:hover:after:border-yellow-dark'>
                             Explore
                         </button>
                     </div>

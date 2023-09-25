@@ -85,7 +85,7 @@ return (
             className={
                 !nav
                     ? 'hidden'
-                    : 'absolute top-0 left-0 w-full h-screen bg-steel-dark text-grey-light flex flex-col justify-center items-center p-4'
+                    : 'absolute top-0 left-0 w-full h-screen bg-steel-dark dark:bg-ice-dark text-grey-light flex flex-col justify-center items-center p-4'
             }
         >
             <li className='py-6 text-2xl'>
@@ -121,9 +121,9 @@ return (
         {/* Social icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
+                <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-800 bg-blue-600 rounded-r-full overflow-hidden'>
                     <a
-                        className='flex justify-between items-center w-full text-gray-300'
+                        className='flex justify-between p-2 items-center w-full text-gray-300'
                         href='https://www.linkedin.com/in/randalltaylor98/'
                         target='_blank' // Open in a new tab
                         rel='noopener noreferrer' // Security best practice
@@ -131,9 +131,9 @@ return (
                         Linkedin<FaLinkedin size={40} />
                     </a>
                 </li>
-                <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]'>
+                <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333] rounded-r-full overflow-hidden'>
                     <a
-                        className='flex justify-between items-center w-full text-gray-300'
+                        className='flex justify-between p-2 items-center w-full text-gray-300'
                         href='https://github.com/randyyanish'
                         target='_blank' // Open in a new tab
                         rel='noopener noreferrer' // Security best practice
