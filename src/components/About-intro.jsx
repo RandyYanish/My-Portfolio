@@ -6,7 +6,7 @@ import credlyBadge from '../assets/credlyBadge.png';
 function AboutIntro() {
     const navigate = useNavigate();
 
-    const handleClick = () => {
+    const toProjects = () => {
         navigate('/projects');
     };
 
@@ -18,12 +18,12 @@ function AboutIntro() {
                         About Randall:
                     </h1>
                     <div className='mb-0 pb-0'>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
                             Hey, all! I am skilled Full-Stack Engineer with a strong foundation in both front-end and back-end development. I hold a Full-Stack Software Engineering Certificate from the University of Minnesota, demonstrating my commitment to continuous learning and growth in the field.
                         </p>
-                        <div className='my-[-60px] p-0'>
+                        <div className='my-[-60px] p-1'>
                             {/* Add the link to your Credly badge here */}
-                            <div className='flex justify-center scale-75 hover:scale-90 duration-500' >
+                            <div className='flex justify-center scale-75 sm:hover:scale-90 duration-500' >
                                 <a
                                     href='https://www.credly.com/badges/f942e08a-7310-4ffb-8d05-e23612003ed5/'
                                     target='_blank'  // Opens in a new tab
@@ -33,22 +33,22 @@ function AboutIntro() {
                                 </a>
                             </div>
                         </div>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
                             When it comes to my technical skills, they encompass a wide range of technologies. This includes: HTML, CSS, JavaScript, React, Node.js, Express, SQL, MongoDB, and many more. These proficiencies extend to version control with Git and GitHub, as well as testing with Jest and design with Figma.
                         </p>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
-                            Throughout my career, I have successfully translated my technical expertise into practical application. In recent, as a Full-Stack Developer/Project Manager, I worked on projects like "<span onClick={handleClick} >123-Shop!</span>" and "<span>Event-Planner</span>," showcasing my ability to collaborate, innovate, and deliver high-quality web applications. His problem-solving skills and meticulous approach to development have consistently produced outstanding results.
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
+                            Throughout my career, I have successfully translated my technical expertise into practical application. In recent, as a Full-Stack Developer/Project Manager, I worked on projects like "<span onClick={toProjects} >123-Shop!</span>" and "<span>Event-Planner</span>," showcasing my ability to collaborate, innovate, and deliver high-quality web applications. His problem-solving skills and meticulous approach to development have consistently produced outstanding results.
                         </p>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
                             Beyond software engineering, I have explored a diverse professional background. During my time with Target, I displayed my organizational prowess by designing and implementing efficient back-room storage systems, and optimizing labor utilization across multiple departments. My adaptability and strong interpersonal skills have enabled me to thrive in different roles, from being the Head Lighting Designer and Production Manager at Purple Hat Productions to excelling as a Mortgage Banker at Network Capital.
                         </p>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
                             Notably, I received the President's Award in 2019 for exceptional sales leadership at a Honda dealership, emphasizing my ability to build strong customer relationships and exceed performance goals. I have also generously contributed time to the community, volunteering extensively with the Fargo-Moorhead Community Theatre.
                         </p>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
                             I am a versatile and accomplished professional, known for my technical prowess, problem-solving abilities, and dedication to both personal and community growth. My journey as a Full-Stack Software Engineer is marked by continuous learning, adaptability, and a commitment to excellence.
                         </p>
-                        <p className='text-ice-dark dark:text-ice font-sans text-xl p-1 py-4'>
+                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
                             Thank you all for stopping by, go check out my projects and skills!
                         </p>
                     </div>
