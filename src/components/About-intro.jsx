@@ -11,7 +11,7 @@ function AboutIntro() {
     };
 
     return (
-        <div className='flex-col items-center lg:px-24 px-4 h-auto'>
+        <div className='flex-col items-center xl:px-52 px-4 h-auto lg:px-24 2xl:mx-24 '>
             <div className='text-left flex flex-col md:flex-row md:items-center sm:p-4'>
                 <div className='text-justify'>
                     <h1 className='font-serif text-metal-dark dark:text-purple-light md:text-5xl duration-500 flex-nowrap text-4xl'>

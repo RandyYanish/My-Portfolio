@@ -151,7 +151,7 @@ function Navbar() {
             {/* Social icons */}
             <socialIcons className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-800 bg-blue-600 rounded-r-full overflow-hidden'>
+                    <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-800 bg-blue-600 rounded-r-2xl overflow-hidden'>
                         <a
                             className='flex justify-between p-2 items-center w-full text-gray-300'
                             href='https://www.linkedin.com/in/randalltaylor98/'
@@ -161,7 +161,7 @@ function Navbar() {
                             Linkedin<FaLinkedin size={40} />
                         </a>
                     </li>
-                    <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 bg-steel-dark rounded-r-full overflow-hidden'>
+                    <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 bg-steel-dark rounded-r-2xl overflow-hidden'>
                         <a
                             className='flex justify-between p-2 items-center w-full text-gray-300'
                             href='https://github.com/randyyanish'
