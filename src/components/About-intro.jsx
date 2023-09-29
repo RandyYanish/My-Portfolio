@@ -23,8 +23,9 @@ function AboutIntro() {
                         </p>
                         <div className='my-[-60px] p-1'>
                             {/* Add the link to your Credly badge here */}
-                            <div className='flex justify-center scale-75 sm:hover:scale-90 duration-500' >
+                            <div className='flex justify-center' >
                                 <a
+                                    className='scale-75 sm:hover:scale-90 duration-500'
                                     href='https://www.credly.com/badges/f942e08a-7310-4ffb-8d05-e23612003ed5/'
                                     target='_blank'  // Opens in a new tab
                                     rel='noopener noreferrer' // Security best practice

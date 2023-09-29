@@ -39,11 +39,18 @@ function Navbar() {
         const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
         const handleChange = (e) => {
-            setTheme(e.matches ? 'dark' : 'light');
+            // Update the theme only if it's not set in localStorage
+            if (!localStorage.getItem('theme')) {
+                setTheme(e.matches ? 'dark' : 'light');
+            }
         };
 
         mediaQuery.addEventListener('change', handleChange);
-        setTheme(mediaQuery.matches ? 'dark' : 'light');
+
+        // Update the theme only if it's not set in localStorage
+        if (!localStorage.getItem('theme')) {
+            setTheme(mediaQuery.matches ? 'dark' : 'light');
+        };
 
         return () => {
             mediaQuery.removeEventListener('change', handleChange);
@@ -142,7 +149,7 @@ function Navbar() {
                 </li>
             </ul>
             {/* Social icons */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <socialIcons className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-800 bg-blue-600 rounded-r-full overflow-hidden'>
                         <a
@@ -165,7 +172,7 @@ function Navbar() {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </socialIcons>
         </div>
     );
 };
