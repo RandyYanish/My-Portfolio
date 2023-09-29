@@ -1,10 +1,10 @@
 import React from "react";
-// import Skills from '../components/Skills'
+import CVButton from '../components/CV-Download'
 
 function SkillsPage() {
     return (
         <div>
-            {/* <Skills /> */}
+            <CVButton />
         </div>
     )
 };

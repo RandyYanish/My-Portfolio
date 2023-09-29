@@ -33,4 +33,4 @@ function CVButton() {
     )
 };
 
-export default CVButton();
+export default CVButton;
