@@ -67,9 +67,10 @@ function Navbar() {
     }, [theme]);
 
     return (
-        <div className='w-full h-[80px] flex justify-evenly items-center px-4 bg-steel-dark text-grey-light dark:bg-ice-dark'>
+        <div className='empty-class'>
+            <div className='w-full h-[80px] flex justify-evenly items-center px-4 scale-100 bg-steel-dark text-grey-light dark:bg-ice-dark'>
             {/* Dark Mode Switch */}
-            <div className='flex px-4 text-grey-light hover:scale-150 duration-150 hover:text-yellow-light'>
+            <div className='flex px-4 text-grey-light hover:scale-150 duration-150 hover:text-yellow-light z-1'>
                 {theme === 'light' ? (
                     <FaSun onClick={handleThemeSwitch} className='cursor-pointer' size={30} />
                 ) : (
@@ -149,7 +150,8 @@ function Navbar() {
                 </li>
             </ul>
             {/* Social icons */}
-            <socialIcons className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            </div>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 z-10'>
                 <ul>
                     <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-800 bg-blue-600 rounded-r-2xl overflow-hidden'>
                         <a
@@ -172,7 +174,7 @@ function Navbar() {
                         </a>
                     </li>
                 </ul>
-            </socialIcons>
+            </div>
         </div>
     );
 };
