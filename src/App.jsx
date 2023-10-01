@@ -17,8 +17,8 @@ function App() {
         <nav className='p-4 z-9'>
           <Navbar />
         </nav>
-        <div className='flex-grow p-4 pointer-events-none'> {/* Container for Outlet content */}
-          <div className='overflow-y-auto max-h-full pointer-events-none'>
+        <div className='flex-grow p-4'> {/* Container for Outlet content */}
+          <div className='overflow-y-auto max-h-full'>
             <Outlet /> {/* Renders child routes */}
           </div>
         </div>
