@@ -1,0 +1,4 @@
+.gradient-style {
+    background: -webkit-radial-gradient(rgba(33, 56, 97, .3), transparent 70%, transparent 10%),
+        transparent
+}
