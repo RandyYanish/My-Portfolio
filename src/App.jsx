@@ -5,15 +5,11 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer';
 import CursorRadialGradient from './components/CursorRadialGradient.jsx';
-import RadialWaves from './components/RadialWaves.jsx';
 
 function App() {
   return (
     <div className='flex flex-col min-h-screen bg-gradient-to-b from-steel-light dark:from-gray-950 dark:to-slate-900 duration-500 z-0'>
         <CursorRadialGradient />
-        <div className='z-1'>
-          <RadialWaves />
-        </div>
         <nav className='p-4 z-9'>
           <Navbar />
         </nav>
