@@ -18,20 +18,22 @@ function AboutIntro() {
                         About Randall:
                     </h1>
                     <div className='mb-0 pb-0'>
-                        <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
-                            Hey, all! I am skilled Full-Stack Engineer with a strong foundation in both front-end and back-end development. I hold a Full-Stack Software Engineering Certificate from the University of Minnesota, demonstrating my commitment to continuous learning and growth in the field.
-                        </p>
-                        <div className='my-[-60px] p-1'>
-                            {/* Add the link to your Credly badge here */}
-                            <div className='flex justify-center' >
-                                <a
-                                    className='scale-75 sm:hover:scale-90 duration-500'
-                                    href='https://www.credly.com/badges/f942e08a-7310-4ffb-8d05-e23612003ed5/'
-                                    target='_blank'  // Opens in a new tab
-                                    rel='noopener noreferrer' // Security best practice
-                                >
-                                    <img src={credlyBadge} alt='Credly Badge for Full Stack Web Development Certificate from the University of Minnesota' />
-                                </a>
+                        <div className='flex flex-col md:flex-row'>
+                            <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4 md:w-2/3'>
+                                Hey, all! I am skilled Full-Stack Engineer with a strong foundation in both front-end and back-end development. I hold a Full-Stack Software Engineering Certificate from the University of Minnesota, demonstrating my commitment to continuous learning and growth in the field.
+                            </p>
+                            <div className='p-1'>
+                                {/* Add the link to your Credly badge here */}
+                                <div className='flex justify-center' >
+                                    <a
+                                        className='scale-75 sm:hover:scale-90 duration-500 w-auto h-auto my-[-50px] md:my-[0px]'
+                                        href='https://www.credly.com/badges/f942e08a-7310-4ffb-8d05-e23612003ed5/'
+                                        target='_blank'  // Opens in a new tab
+                                        rel='noopener noreferrer' // Security best practice
+                                    >
+                                        <img src={credlyBadge} alt='Credly Badge for Full Stack Web Development Certificate from the University of Minnesota' />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <p className='text-ice-dark dark:text-ice font-sans text-lg sm:text-xl p-1 py-4'>
