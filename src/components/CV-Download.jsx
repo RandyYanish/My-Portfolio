@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowAltCircleDown } from 'react-icons/fa';
 
 function CVButton() {
     // function to generate and download a PDF
@@ -21,13 +22,13 @@ function CVButton() {
     };
 
     return (
-        <div className=''>
+        <div className='flex justify-center'>
             {/* Button to download the PDF */}
             <button
-                className="px-4 py-2 bg-blue-600 text-gray-300 rounded-md hover:bg-blue-800"
+                className='explore-btn rounded-full hover:bg-ice-light hover:text-magenta-dark bg-ice-dark py-2 px-8 text-steel-light text-xl font-serif dark:hover:bg-magenta-dark dark:hover:text-ice-light dark:hover:after:border-yellow-dark pointer-events-auto flex items-center'
                 onClick={handleDownloadPDF}
             >
-                Download PDF
+                Download Resume<FaArrowAltCircleDown size={20} className=' ml-2'/>
             </button>
         </div>
     )

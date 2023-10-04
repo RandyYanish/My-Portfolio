@@ -16,8 +16,8 @@ function HomePage() {
                 <AboutIntro />
             </div>
             <div id='Skills'>
-                <CVDownload />
                 <Resume />
+                <CVDownload />
             </div>
             <div id='Projects'>
                 <Projects />

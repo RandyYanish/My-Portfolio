@@ -14,7 +14,7 @@ function App() {
           <Navbar />
         </nav>
         <div className='flex-grow p-4'> {/* Container for Outlet content */}
-          <div className='overflow-y-auto max-h-full'>
+          <div className='max-h-full '>
             <Outlet /> {/* Renders child routes */}
           </div>
         </div>
