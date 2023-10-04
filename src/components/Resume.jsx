@@ -34,7 +34,7 @@ function Resume() {
                         </div>
                     </li>
                 </div>
-                <div aria-label='Specialty Sales at Target' className='flex flex-row hover:bg-blue hover:bg-opacity-10 overflow-hidden rounded-xl my-4 group duration-300  hover:shadow-lg hover:shadow-metal-dark'>
+                <div aria-label='Specialty Sales at Target' className='flex flex-row hover:bg-blue-light hover:bg-opacity-10 overflow-hidden rounded-xl my-4 group duration-300  hover:shadow-lg hover:shadow-metal-dark'>
                     <li className='w-1/3 text-right p-2 mt-1'>
                         <h3 className='text-sm text-steel group-hover:text-teal-500 duration-300'>Oct. 2022 - Current</h3>
                     </li>
@@ -70,14 +70,13 @@ function Resume() {
                         <h3 className='text-lg text-purple-light group-hover:text-teal-300 duration-300'>
                             <a href='/'>
                                 <span>
-                                    Production Manager • <span id='spacer'></span>
+                                    Production Manager & Lighting Designer • <span id='spacer'></span>
                                     <span className='inline-block whitespace-nowrap'>
                                         Purple Hat Productions
                                         <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' className='inline-block h-5 px-1' aria-hidden='true' data-darkreader-inline-fill=''><path fill-rule='evenodd' d='M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z' clip-rule='evenodd'></path></svg>
                                     </span>
                                 </span>
                             </a>
-                            <h4 className='text-metal group-hover:text-teal-600 text-md'>Lighting Designer</h4>
                         </h3>
                         <div className='text-steel group-hover:text-ice-light duration-300'>
                             <ul>
@@ -130,14 +129,13 @@ function Resume() {
                         <h3 className='text-lg text-purple-light group-hover:text-teal-300 duration-300'>
                             <a href='/'>
                                 <span>
-                                    Sales Professional • <span id='spacer'></span>
+                                    Sales Professional & Leasing Consultant • <span id='spacer'></span>
                                     <span className='inline-block whitespace-nowrap'>
                                         Corwin Honda
                                         <svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' className='inline-block h-5 px-1' aria-hidden='true' data-darkreader-inline-fill=''><path fill-rule='evenodd' d='M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z' clip-rule='evenodd'></path></svg>
                                     </span>
                                 </span>
                             </a>
-                            <h4 className='text-metal group-hover:text-teal-600 text-md'>Leasing Consultant</h4>
                         </h3>
                         <div className='text-steel group-hover:text-ice-light duration-300'>
                             <ul>

@@ -22,7 +22,7 @@ function Footer() {
                 </a>
             </div>
             <div>
-                <button className='bg-ice-dark dark:bg-magenta-dark  p-2 px-4 rounded-full font-sans hover:scale-125 hover:shadow-2xl hover:shadow-ice duration-150' onClick={handleClick} to='/' >Contact</button>
+                <button className='explore-btn rounded-full hover:bg-ice-light hover:text-magenta-dark bg-magenta-dark py-2 px-8 text-steel-light text-xl font-serif dark:hover:bg-magenta-dark dark:hover:text-ice-light dark:hover:after:border-yellow-dark pointer-events-auto flex items-center' onClick={handleClick} to='/' >Contact</button>
             </div>
             <div className=''>
                 <a
