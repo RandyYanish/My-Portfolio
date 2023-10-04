@@ -1,5 +1,5 @@
-import React from "react";
-import CVButton from "../components/CV-Download";
+import React from 'react';
+import CVButton from '../components/CV-Download';
 
 function SkillsPage() {
   return (

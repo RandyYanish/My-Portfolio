@@ -11,7 +11,7 @@
 
 .explore-btn::after,
 .explore-btn::before {
-  content: " ";
+  content: ' ';
   width: 10px;
   height: 10px;
   position: absolute;

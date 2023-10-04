@@ -1,5 +1,5 @@
-import React from "react";
-import AboutIntro from "../components/About-intro";
+import React from 'react';
+import AboutIntro from '../components/About-intro';
 
 function AboutPage() {
   return (

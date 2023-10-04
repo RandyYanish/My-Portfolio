@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback } from "react";
-import "./CursorRadialGradient.css";
+import React, { useState, useEffect, useCallback } from 'react';
+import './CursorRadialGradient.css';
 
 const CursorRadialGradient = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -15,9 +15,9 @@ const CursorRadialGradient = () => {
 
   // Add an event listener to track mouse movement
   useEffect(() => {
-    document.addEventListener("mousemove", updateCursorPosition);
+    document.addEventListener('mousemove', updateCursorPosition);
     return () => {
-      document.removeEventListener("mousemove", updateCursorPosition);
+      document.removeEventListener('mousemove', updateCursorPosition);
     };
   }, [updateCursorPosition]);
 
@@ -27,7 +27,7 @@ const CursorRadialGradient = () => {
         left: `${cursorPosition.x}px`,
         top: `${cursorPosition.y}px`,
       }}
-      className="gradient-style z-0 rounded-full -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] fixed pointer-events-none"
+      className='gradient-style z-0 rounded-full -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] fixed pointer-events-none'
     ></div>
   );
 };
