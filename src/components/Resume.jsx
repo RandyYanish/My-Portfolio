@@ -6,12 +6,12 @@ function Resume() {
         <div className='py-3'>
             <h2 className='font-serif text-metal-dark dark:text-purple-light md:text-5xl duration-500 flex-nowrap text-4xl py-2'>Resume:</h2>
             <ol className='flex flex-col  overflow-hidden'>
-                <div aria-label='Freelance Web-Developer' className='flex flex-row hover:bg-blue-light hover:bg-opacity-10 overflow-hidden rounded-xl group duration-300 hover:shadow-lg hover:shadow-metal-dark'>
+                <div aria-label='Freelance Web-Developer' className='flex flex-row dark:hover:bg-blue-light dark:bg-blue-light bg-blue-dark md:bg-transparent dark:hover:bg-opacity-10 dark:bg-opacity-10 bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg dark:hover:shadow-metal-dark hover:shadow-metal dark:shadow-metal-dark shadow-metal md:shadow-none'>
                     <li className='w-1/3 text-right p-2 mt-1'>
-                        <h3 className='text-sm text-steel group-hover:text-teal-500 duration-300'>Aug. 2023 - Current</h3>
+                        <h3 className='text-sm dark:md:text-steel md:text-steel-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta-dark font-bold duration-300'>Aug. 2023 - Current</h3>
                     </li>
                     <li className='w-2/3 text-left duration-300 p-2'>
-                        <h3 className='text-lg text-purple-light group-hover:text-teal-300 duration-300'>
+                        <h3 className='text-lg dark:md:text-purple-light md:text-magenta dark:group-hover:text-teal-300 dark:text-teal-300 text-magenta duration-300'>
                             <a href='/'>
                                 <span>
                                     Full-Stack Developer • <span id='spacer'></span>
@@ -22,7 +22,7 @@ function Resume() {
                                 </span>
                             </a>
                         </h3>
-                        <div className='text-steel group-hover:text-ice-light duration-300'>
+                        <div className='dark:md:text-steel dark:group-hover:text-ice-light dark:text-ice-light duration-300'>
                             <ul>
                                 <li>
                                     • Design and implement fullstack websites with tools like GraphQL, SQL, and MongoDB, React, Tailwind, JavaScript, etc.
