@@ -1,30 +1,31 @@
 .nav-list-item {
-    position: relative;
-    padding: 5px;
+  position: relative;
+  padding: 5px;
 }
 
 .nav-list-item a::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    transition: .2s;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  transition: 0.2s;
 }
 
-.nav-list-item a.active::after,.nav-list-item a:hover::after {
-    content: '';
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    transition: .2s;
+.nav-list-item a.active::after,
+.nav-list-item a:hover::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  transition: 0.2s;
 }
 
 .nav-list-item a:hover::after {
-    background-color: var(--yellow-light);
+  background-color: var(--yellow-light);
 }
