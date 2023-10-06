@@ -5,8 +5,8 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "/icons/portfolioIcon.png",
-            "sizes": "16x16",
+            "src": "icons/portfolioIcon.png",
+            "sizes": "192x192 128x128 64x64 32x32 16x16",
             "type": "image/png"
         }
     ]
