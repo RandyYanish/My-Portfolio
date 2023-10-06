@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.f4ecc9cc.css",
-    "main.js": "/My-Portfolio/static/js/main.3d3a0ba4.js",
+    "main.js": "/My-Portfolio/static/js/main.d2fa0b14.js",
     "static/media/Taylor-Randall-Headshot.jpg": "/My-Portfolio/static/media/Taylor-Randall-Headshot.f578f9402d4d3953e8ae.jpg",
     "static/media/credlyBadge.png": "/My-Portfolio/static/media/credlyBadge.db97afa96c29e971ffc7.png",
     "index.html": "/My-Portfolio/index.html",
     "main.f4ecc9cc.css.map": "/My-Portfolio/static/css/main.f4ecc9cc.css.map",
-    "main.3d3a0ba4.js.map": "/My-Portfolio/static/js/main.3d3a0ba4.js.map"
+    "main.d2fa0b14.js.map": "/My-Portfolio/static/js/main.d2fa0b14.js.map"
   },
   "entrypoints": [
     "static/css/main.f4ecc9cc.css",
-    "static/js/main.3d3a0ba4.js"
+    "static/js/main.d2fa0b14.js"
   ]
 }
