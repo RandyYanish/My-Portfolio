@@ -18,8 +18,8 @@ function AboutIntro() {
           </h1>
           <div className='mb-0 pb-0'>
             <div className='flex flex-col md:flex-row items-center'>
-              <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4 md:w-2/3'>
-                <span className='text-steel-dark dark:text-metal-light font-serif  text-xl sm:text-3xl'>
+              <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4 md:w-2/3'>
+                <span className='text-steel-dark dark:text-teal-500 font-serif  text-xl sm:text-5xl'>
                   Hey, all!
                 </span>{' '}
                 I am skilled Full-Stack Engineer with a strong foundation in
@@ -45,14 +45,14 @@ function AboutIntro() {
                 </div>
               </div>
             </div>
-            <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4'>
+            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               When it comes to my technical skills, they encompass a wide range
               of technologies. This includes: HTML, CSS, JavaScript, React,
               Node.js, Express, SQL, MongoDB, and many more. These proficiencies
               extend to version control with Git and GitHub, as well as testing
               with Jest and design with Figma.
             </p>
-            <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4'>
+            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Throughout my career, I have successfully translated my technical
               expertise into practical application. In recent, as a Full-Stack
               Developer/Project Manager, I worked on projects like "
@@ -62,7 +62,7 @@ function AboutIntro() {
               problem-solving skills and meticulous approach to development have
               consistently produced outstanding results.
             </p>
-            <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4'>
+            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Beyond software engineering, I have explored a diverse
               professional background. During my time with Target, I displayed
               my organizational prowess by designing and implementing efficient
@@ -72,7 +72,7 @@ function AboutIntro() {
               the Head Lighting Designer and Production Manager at Purple Hat
               Productions to excelling as a Mortgage Banker at Network Capital.
             </p>
-            <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4'>
+            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Notably, I received the President's Award in 2019 for exceptional
               sales leadership at a Honda dealership, emphasizing my ability to
               build strong customer relationships and exceed performance goals.
@@ -80,14 +80,14 @@ function AboutIntro() {
               volunteering extensively with the Fargo-Moorhead Community
               Theatre.
             </p>
-            <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4'>
+            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               I am a versatile and accomplished professional, known for my
               technical prowess, problem-solving abilities, and dedication to
               both personal and community growth. My journey as a Full-Stack
               Software Engineer is marked by continuous learning, adaptability,
               and a commitment to excellence.
             </p>
-            <p className='text-ice-dark dark:text-metal font-sans text-lg sm:text-2xl p-1 py-4'>
+            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Thank you all for stopping by, go check out my projects and
               skills!
             </p>
