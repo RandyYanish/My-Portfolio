@@ -10,10 +10,10 @@ function App() {
   return (
     <div className='flex flex-col min-h-screen bg-gradient-to-b from-steel-light dark:from-gray-950 dark:to-slate-800 duration-500 z-0'>
       <CursorRadialGradient />
-      <nav className='p-4 z-9'>
+      <nav className='p-4 z-50 sticky top-0'>
         <Navbar />
       </nav>
-      <div className='flex-grow p-4'>
+      <div className='flex-grow p-4 z-1'>
         {' '}
         {/* Container for Outlet content */}
         <div className='max-h-full '>

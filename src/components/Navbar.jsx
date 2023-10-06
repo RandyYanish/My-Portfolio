@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
 import {
   FaBars,
   FaGithub,
@@ -23,23 +22,18 @@ function Navbar() {
     );
   });
 
+  // Add a state variable to track the active section
+  const [activeSection, setActiveSection] = useState('Home');
+
   const handleClick = () => setNav(!nav);
 
-  // Function to toggle the theme between light and dark.
   const handleThemeSwitch = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
-
-    // Debug: Log the new theme
     console.log('New Theme:', newTheme);
-
-    // Update localStorage with the new theme.
     localStorage.setItem('theme', newTheme);
-
-    // Update state with the new theme.
     setTheme(newTheme);
   };
 
-  // Update the theme state when the user's color scheme preference changes.
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
@@ -62,7 +56,6 @@ function Navbar() {
     };
   }, []);
 
-  // Update the document.documentElement.classList when the localStorage theme changes.
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
@@ -70,6 +63,62 @@ function Navbar() {
       document.documentElement.classList.remove('dark');
     }
   }, [theme]);
+
+  // Function to handle scrolling and set the active section
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const homeSection = document.getElementById('Home');
+    const aboutSection = document.getElementById('About');
+    const skillsSection = document.getElementById('Skills');
+    const projectsSection = document.getElementById('Projects');
+    const contactSection = document.getElementById('Contact');
+
+    if (
+      scrollY >= contactSection.offsetTop &&
+      activeSection !== 'Contact'
+    ) {
+      setActiveSection('Contact');
+    } else if (
+      scrollY >= projectsSection.offsetTop &&
+      activeSection !== 'Projects'
+    ) {
+      setActiveSection('Projects');
+    } else if (
+      scrollY >= skillsSection.offsetTop &&
+      activeSection !== 'Skills'
+    ) {
+      setActiveSection('Skills');
+    } else if (
+      scrollY >= aboutSection.offsetTop &&
+      activeSection !== 'About'
+    ) {
+      setActiveSection('About');
+    } else if (
+      scrollY < homeSection.offsetTop &&
+      activeSection !== 'Home'
+    ) {
+      setActiveSection('Home');
+    }
+  };
+
+  // Add a scroll event listener to handle scrolling
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the scroll event listener when component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  });
+
+  const scrollToSection = (sectionId, e) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      setNav(false); // Close the mobile menu when a link is clicked
+    }
+  };
 
   return (
     <div className='empty-class'>
@@ -93,19 +142,49 @@ function Navbar() {
         {/* menu */}
         <ul className='hidden md:flex gap-x-8'>
           <li className='nav-list-item'>
-            <NavLink to='/'>Home</NavLink>
+            <a
+              href='#Home'
+              onClick={(e) => scrollToSection('Home', e)}
+              className={activeSection === 'Home' ? 'active' : ''}
+            >
+              Home
+            </a>
           </li>
           <li className='nav-list-item'>
-            <NavLink to='/about'>About</NavLink>
+            <a
+              href='#About'
+              onClick={(e) => scrollToSection('About', e)}
+              className={activeSection === 'About' ? 'active' : ''}
+            >
+              About
+            </a>
           </li>
           <li className='nav-list-item'>
-            <NavLink to='/skills'>Skills</NavLink>
+            <a
+              href='#Skills'
+              onClick={(e) => scrollToSection('Skills', e)}
+              className={activeSection === 'Skills' ? 'active' : ''}
+            >
+              Skills
+            </a>
           </li>
           <li className='nav-list-item'>
-            <NavLink to='/projects'>Projects</NavLink>
+            <a
+              href='#Projects'
+              onClick={(e) => scrollToSection('Projects', e)}
+              className={activeSection === 'Projects' ? 'active' : ''}
+            >
+              Projects
+            </a>
           </li>
           <li className='nav-list-item'>
-            <NavLink to='/contact'>Contact</NavLink>
+            <a
+              href='#Contact'
+              onClick={(e) => scrollToSection('Contact', e)}
+              className={activeSection === 'Contact' ? 'active' : ''}
+            >
+              Contact
+            </a>
           </li>
         </ul>
         {/* Empty Spacer */}
@@ -123,33 +202,49 @@ function Navbar() {
           }
         >
           <li className='py-6 text-2xl'>
-            <NavLink onClick={handleClick} to='/'>
+            <a
+              href='#Home'
+              onClick={(e) => scrollToSection('Home', e)}
+              className={activeSection === 'Home' ? 'active' : ''}
+            >
               Home
-            </NavLink>
+            </a>
           </li>
           <li className='py-6 text-2xl'>
-            {' '}
-            <NavLink onClick={handleClick} to='/about'>
+            <a
+              href='#About'
+              onClick={(e) => scrollToSection('About', e)}
+              className={activeSection === 'About' ? 'active' : ''}
+            >
               About
-            </NavLink>
+            </a>
           </li>
           <li className='py-6 text-2xl'>
-            {' '}
-            <NavLink onClick={handleClick} to='/skills'>
+            <a
+              href='#Skills'
+              onClick={(e) => scrollToSection('Skills', e)}
+              className={activeSection === 'Skills' ? 'active' : ''}
+            >
               Skills
-            </NavLink>
+            </a>
           </li>
           <li className='py-6 text-2xl'>
-            {' '}
-            <NavLink onClick={handleClick} to='/projects'>
+            <a
+              href='#Projects'
+              onClick={(e) => scrollToSection('Projects', e)}
+              className={activeSection === 'Projects' ? 'active' : ''}
+            >
               Projects
-            </NavLink>
+            </a>
           </li>
           <li className='py-6 text-2xl'>
-            {' '}
-            <NavLink onClick={handleClick} to='/contact'>
+            <a
+              href='#Contact'
+              onClick={(e) => scrollToSection('Contact', e)}
+              className={activeSection === 'Contact' ? 'active' : ''}
+            >
               Contact
-            </NavLink>
+            </a>
           </li>
         </ul>
         {/* Social icons */}

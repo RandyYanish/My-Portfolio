@@ -27,7 +27,7 @@ const CursorRadialGradient = () => {
         left: `${cursorPosition.x}px`,
         top: `${cursorPosition.y}px`,
       }}
-      className='gradient-style z-0 rounded-full -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] fixed pointer-events-none'
+      className='dark:bg-radial-blue gradient-style z-0 rounded-full -translate-x-1/2 -translate-y-1/2 dark:w-[800px] dark:h-[800px] w-[400px] h-[400px] fixed pointer-events-none'
     ></div>
   );
 };
