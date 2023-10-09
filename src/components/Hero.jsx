@@ -3,7 +3,6 @@ import './Hero.css';
 import heroImage from '../assets/Taylor-Randall-Headshot.jpg';
 
 function Hero() {
-
   return (
     <div id='Hero' className='lg:px-24 px-16 h-auto'>
       <div className='text-left flex flex-col md:flex-row md:items-center md:justify-center'>

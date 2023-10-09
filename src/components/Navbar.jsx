@@ -73,10 +73,7 @@ function Navbar() {
     const projectsSection = document.getElementById('Projects');
     const contactSection = document.getElementById('Contact');
 
-    if (
-      scrollY >= contactSection.offsetTop &&
-      activeSection !== 'Contact'
-    ) {
+    if (scrollY >= contactSection.offsetTop && activeSection !== 'Contact') {
       setActiveSection('Contact');
     } else if (
       scrollY >= projectsSection.offsetTop &&
@@ -88,15 +85,9 @@ function Navbar() {
       activeSection !== 'Skills'
     ) {
       setActiveSection('Skills');
-    } else if (
-      scrollY >= aboutSection.offsetTop &&
-      activeSection !== 'About'
-    ) {
+    } else if (scrollY >= aboutSection.offsetTop && activeSection !== 'About') {
       setActiveSection('About');
-    } else if (
-      scrollY < homeSection.offsetTop &&
-      activeSection !== 'Home'
-    ) {
+    } else if (scrollY < homeSection.offsetTop && activeSection !== 'Home') {
       setActiveSection('Home');
     }
   };

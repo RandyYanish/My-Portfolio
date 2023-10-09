@@ -1151,11 +1151,6 @@ code {
   background-color: rgb(86 18 73 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-ice) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 115 193 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:bg-opacity-10) {
   --tw-bg-opacity: 0.1;
 }
@@ -1180,16 +1175,6 @@ code {
   color: rgb(218 227 242 / var(--tw-text-opacity));
 }
 
-:is(.dark .dark\:text-metal) {
-  --tw-text-opacity: 1;
-  color: rgb(88 128 142 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-metal-light) {
-  --tw-text-opacity: 1;
-  color: rgb(212 224 228 / var(--tw-text-opacity));
-}
-
 :is(.dark .dark\:text-purple-light) {
   --tw-text-opacity: 1;
   color: rgb(230 220 252 / var(--tw-text-opacity));
@@ -1198,45 +1183,6 @@ code {
 :is(.dark .dark\:text-teal-500) {
   --tw-text-opacity: 1;
   color: rgb(20 184 166 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-magenta-light) {
-  --tw-text-opacity: 1;
-  color: rgb(249 223 244 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-yellow-light) {
-  --tw-text-opacity: 1;
-  color: rgb(246 254 206 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-blue-light) {
-  --tw-text-opacity: 1;
-  color: rgb(219 217 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-opacity-80) {
-  --tw-text-opacity: 0.8;
-}
-
-:is(.dark .dark\:text-opacity-20) {
-  --tw-text-opacity: 0.2;
-}
-
-:is(.dark .dark\:text-opacity-90) {
-  --tw-text-opacity: 0.9;
-}
-
-:is(.dark .dark\:text-opacity-60) {
-  --tw-text-opacity: 0.6;
-}
-
-:is(.dark .dark\:text-opacity-0) {
-  --tw-text-opacity: 0;
-}
-
-:is(.dark .dark\:text-opacity-95) {
-  --tw-text-opacity: 0.95;
 }
 
 :is(.dark .dark\:shadow-metal) {
@@ -1283,11 +1229,6 @@ code {
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .sm\:text-5xl {
@@ -1391,11 +1332,6 @@ code {
     color: rgb(148 163 184 / var(--tw-text-opacity));
   }
 
-  :is(.dark .dark\:md\:text-steel) {
-    --tw-text-opacity: 1;
-    color: rgb(116 134 138 / var(--tw-text-opacity));
-  }
-
   :is(.dark .dark\:md\:shadow-transparent) {
     --tw-shadow-color: transparent;
     --tw-shadow: var(--tw-shadow-colored);
@@ -1414,6 +1350,10 @@ code {
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:px-24 {
