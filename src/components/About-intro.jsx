@@ -13,13 +13,13 @@ function AboutIntro() {
     <div className='flex-col items-center xl:px-52 px-4 h-auto lg:px-24 2xl:mx-24 '>
       <div className='text-left flex flex-col md:flex-row md:items-center sm:p-4'>
         <div className='text-justify'>
-          <h1 className='font-serif text-metal-dark dark:text-purple-light md:text-5xl duration-500 flex-nowrap text-4xl'>
+          <h1 className='font-serif text-metal-dark dark:text-sky-400 md:text-5xl duration-500 flex-nowrap text-4xl'>
             About Randall:
           </h1>
           <div className='mb-0 pb-0'>
             <div className='flex flex-col md:flex-row items-center'>
               <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4 md:w-2/3'>
-                <span className='text-steel-dark dark:text-teal-500 font-serif  text-xl sm:text-5xl'>
+                <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-5xl'>
                   Hey, all!
                 </span>{' '}
                 I am skilled Full-Stack Engineer with a strong foundation in
