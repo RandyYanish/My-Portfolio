@@ -242,7 +242,7 @@ function Navbar() {
       </div>
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0 z-10'>
         <ul>
-          <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-800 bg-blue-600 rounded-r-2xl overflow-hidden'>
+          <li className='w-[150px] h-[60px] flex items-center ml-[-100px] hover:ml-[0px] duration-300 dark:bg-blue-600 bg-blue-600 rounded-r-2xl overflow-hidden'>
             <a
               className='flex justify-between p-2 items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/randalltaylor98/'
