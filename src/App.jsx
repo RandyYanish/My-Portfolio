@@ -8,7 +8,7 @@ import CursorRadialGradient from './components/CursorRadialGradient.jsx';
 
 function App() {
   return (
-    <div className='flex flex-col min-h-screen bg-gradient-to-b from-steel-light dark:from-gray-950 dark:to-slate-800 duration-500 z-0'>
+    <div className='flex flex-col min-h-screen bg-gradient-to-b from-steel-50 to-steel-light dark:from-gray-950 dark:to-slate-800 duration-500 z-0'>
       <CursorRadialGradient />
       <nav className='p-4 z-50 sticky top-0'>
         <Navbar />

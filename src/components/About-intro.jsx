@@ -2,7 +2,6 @@ import React from 'react';
 import credlyBadge from '../assets/credlyBadge.png';
 
 function AboutIntro() {
-
   return (
     <div className='flex-col items-center xl:px-52 px-4 h-auto lg:px-24 2xl:mx-24 '>
       <div className='text-left flex flex-col md:flex-row md:items-center sm:p-4'>
@@ -50,11 +49,19 @@ function AboutIntro() {
               Throughout my career, I have successfully translated my technical
               expertise into practical application. In recent, as a Full-Stack
               Developer/Project Manager, I worked on projects like
-              <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-3xl'> "123-Shop!"</span> and
-              <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-3xl'> "Event-Planner,"</span> showcasing my ability to collaborate,
-              innovate, and deliver high-quality web applications. His
-              problem-solving skills and meticulous approach to development have
-              consistently produced outstanding results.
+              <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-3xl'>
+                {' '}
+                "123-Shop!"
+              </span>{' '}
+              and
+              <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-3xl'>
+                {' '}
+                "Event-Planner,"
+              </span>{' '}
+              showcasing my ability to collaborate, innovate, and deliver
+              high-quality web applications. His problem-solving skills and
+              meticulous approach to development have consistently produced
+              outstanding results.
             </p>
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Beyond software engineering, I have explored a diverse
