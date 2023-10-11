@@ -1,13 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import credlyBadge from '../assets/credlyBadge.png';
 
 function AboutIntro() {
-  const navigate = useNavigate();
-
-  const toProjects = () => {
-    navigate('/projects');
-  };
 
   return (
     <div className='flex-col items-center xl:px-52 px-4 h-auto lg:px-24 2xl:mx-24 '>
@@ -55,9 +49,9 @@ function AboutIntro() {
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Throughout my career, I have successfully translated my technical
               expertise into practical application. In recent, as a Full-Stack
-              Developer/Project Manager, I worked on projects like "
-              <span onClick={toProjects}>123-Shop!</span>" and "
-              <span>Event-Planner</span>," showcasing my ability to collaborate,
+              Developer/Project Manager, I worked on projects like
+              <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-3xl'> "123-Shop!"</span> and
+              <span className='text-steel-dark dark:text-teal-400 font-serif  text-xl sm:text-3xl'> "Event-Planner,"</span> showcasing my ability to collaborate,
               innovate, and deliver high-quality web applications. His
               problem-solving skills and meticulous approach to development have
               consistently produced outstanding results.
