@@ -113,9 +113,9 @@ function Navbar() {
 
   return (
     <div className='empty-class'>
-      <div className='w-full h-[80px] flex justify-evenly items-center px-4 scale-100 bg-steel-dark text-grey-light dark:bg-ice-dark rounded-full'>
+      <div className='w-full h-[80px] flex justify-evenly items-center px-4 scale-100 bg-blue-300 text-grey-50 font-bold dark:bg-ice-dark rounded-full'>
         {/* Dark Mode Switch */}
-        <div className='flex px-4 text-grey-light hover:scale-150 duration-150 hover:text-yellow-light z-1'>
+        <div className='flex px-4 text-grey-50 hover:scale-150 duration-150 hover:text-yellow-400 z-1'>
           {theme === 'light' ? (
             <FaSun
               onClick={handleThemeSwitch}
@@ -132,7 +132,7 @@ function Navbar() {
         </div>
         {/* menu */}
         <ul className='hidden md:flex gap-x-8'>
-          <li className='nav-list-item'>
+          <li className='nav-list-item hover:text-yellow-400'>
             <a
               href='#Home'
               onClick={(e) => scrollToSection('Home', e)}
@@ -141,7 +141,7 @@ function Navbar() {
               Home
             </a>
           </li>
-          <li className='nav-list-item'>
+          <li className='nav-list-item hover:text-yellow-400'>
             <a
               href='#About'
               onClick={(e) => scrollToSection('About', e)}
@@ -150,7 +150,7 @@ function Navbar() {
               About
             </a>
           </li>
-          <li className='nav-list-item'>
+          <li className='nav-list-item hover:text-yellow-400'>
             <a
               href='#Skills'
               onClick={(e) => scrollToSection('Skills', e)}
@@ -159,7 +159,7 @@ function Navbar() {
               Skills
             </a>
           </li>
-          <li className='nav-list-item'>
+          <li className='nav-list-item hover:text-yellow-400'>
             <a
               href='#Projects'
               onClick={(e) => scrollToSection('Projects', e)}
@@ -168,7 +168,7 @@ function Navbar() {
               Projects
             </a>
           </li>
-          <li className='nav-list-item'>
+          <li className='nav-list-item hover:text-yellow-400'>
             <a
               href='#Contact'
               onClick={(e) => scrollToSection('Contact', e)}

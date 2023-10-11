@@ -12,12 +12,6 @@ function HomePage() {
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your form submission logic here
-    // You can access form data using e.target.name.value, e.target.email.value, and e.target.message.value
-    closeModal();
-  };
 
   return (
     <div className=''>
@@ -35,8 +29,8 @@ function HomePage() {
         <Projects />
       </div>
       <div id='Contact'>
-        <ContactButton onClick={openModal}/>
-        <ContactFormModal isOpen={isModalOpen} onClose={closeModal} onSubmit={handleSubmit} />
+        <ContactButton openModal={openModal}/>
+        <ContactFormModal isOpen={isModalOpen} closeModal={closeModal}/>
       </div>
     </div>
   );
