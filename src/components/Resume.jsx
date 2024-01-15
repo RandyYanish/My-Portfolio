@@ -12,15 +12,15 @@ function Resume() {
           <div id='Spacer' className='w-1/4 md:flex hidden'></div>
           <div
             id='Block'
-            aria-label='Freelance Web-Developer'
-            className='flex flex-row dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
+            aria-label='Full-Stack Developer'
+            className='flex flex-row dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
           >
             <li className='w-1/8 text-end p-2 mt-1'>
               <h3
                 id='Time'
                 className='text-sm md:text-base lg:text-xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
-                Aug. 2023 - Current
+                Oct. 2023 - Current
               </h3>
             </li>
             <li className='w-7/8 text-left p-2'>
@@ -31,7 +31,7 @@ function Resume() {
                 <span>
                   Full-Stack Developer • <span id='spacer'></span>
                   <span className='inline-block whitespace-nowrap'>
-                    Freelance
+                    A Buying Center
                   </span>
                 </span>
               </h3>
@@ -41,12 +41,13 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    • Design and implement fullstack websites with tools like
-                    GraphQL, SQL, and MongoDB, React, Tailwind, JavaScript, etc.
+                    •	Developed a lead generation site - deployed on EC2 and distributed on CloudFront - for consumers to set up appointments of appraisal, which increased lead generation and lowered lead cost.
                   </li>
                   <li>
-                    • Collaborated on projects while using Agile methodology for
-                    efficient development for seamless integration.
+                    •	Translated marketing sources to the front-end of the site using a mobile-first design strategy with React and Tailwind.
+                  </li>
+                  <li>
+                    •	Prepared comparative informational materials on Dealership Management Systems (DMS), allowing for a tailored set up at a lower cost.
                   </li>
                 </ul>
               </div>
@@ -59,14 +60,14 @@ function Resume() {
           <div
             id='Block'
             aria-label='Specialty Sales at Target'
-            className='flex flex-row dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
+            className='flex flex-row dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
           >
             <li className='w-1/8 text-end p-2 mt-1'>
               <h3
                 id='Time'
                 className='text-sm md:text-base lg:text-xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
-                Oct. 2022 - Current
+                Oct. 2022 - Dec. 2023
               </h3>
             </li>
             <li className='w-7/8 text-left duration-300 p-2'>
@@ -103,7 +104,7 @@ function Resume() {
           <div
             id='Block'
             aria-label='Production Manager and Lighting Designer at Purple Hat Productions'
-            className='flex flex-row dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
+            className='flex flex-row dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
           >
             <li className='w-1/8 text-end p-2 mt-1'>
               <h3
@@ -119,10 +120,10 @@ function Resume() {
                 className='text-lg md:text-xl lg:text-2xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
                 <span>
-                  Production Manager & Lighting Designer •{' '}
+                  Production Manager & Lighting Designer •
                   <span id='spacer'></span>
                   <span className='inline-block whitespace-nowrap'>
-                    Purple Hat Productions
+                    Purple Hat Productions, Other
                   </span>
                 </span>
               </h3>
@@ -157,7 +158,7 @@ function Resume() {
           <div
             id='Block'
             aria-label='Mortgage Banker at Network Capital'
-            className='flex flex-row dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
+            className='flex flex-row dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
           >
             <li className='w-1/8 text-end p-2 mt-1'>
               <h3
@@ -185,15 +186,10 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    • Continued to hit and surpass goals of 5 hours of talk
-                    time, 5 applications, and 3+ submissions for loans every
-                    week; reached out to 200+ people daily
+                    •	Achieved the highest talking time and connected calls, which increased approved applications and led to better loan rates for customers.
                   </li>
                   <li>
-                    • Collected and assessed customer information and
-                    liabilities to build out a custom refinance package that
-                    suits their needs best, and effectively communicated this
-                    information with customers.
+                    •	Consistently improved my customer communication skills, resulting in increased customer retention throughout negotiations.
                   </li>
                 </ul>
               </div>
@@ -206,7 +202,7 @@ function Resume() {
           <div
             id='Block'
             aria-label='Sales Professional and Leasing Consultant at Corwin Honda'
-            className='flex flex-row dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100 mb-8'
+            className='flex flex-row dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100 mb-8'
           >
             <li className='w-1/8 text-end p-2 mt-1'>
               <h3
@@ -222,7 +218,7 @@ function Resume() {
                 className='text-lg md:text-xl lg:text-2xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
                 <span>
-                  Sales Professional & Leasing Consultant •{' '}
+                  Sales Professional & Leasing Consultant •
                   <span id='spacer'></span>
                   <span className='inline-block whitespace-nowrap'>
                     Corwin Honda
@@ -235,15 +231,10 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    • Interacted with 50-100+ people every day, building a
-                    strong customer basis through resolving issues, following up
-                    on purchases, and guiding people through financing or
-                    leasing their vehicles.
+                    •	Received the Honda 2019 Presidents Award for sales leadership on new car sales.
                   </li>
                   <li>
-                    • Provided deep knowledge and personalized product guidance
-                    tailored to individual needs in a timely manner, whether it
-                    is over the phone, by email, or in person.
+                    •	Increased personal customer engagement and gross profits from sales by 15% by improving product knowledge and communication skills.
                   </li>
                 </ul>
               </div>

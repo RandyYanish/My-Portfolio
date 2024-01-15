@@ -26,7 +26,7 @@ function Projects() {
           <div
             id='Block'
             aria-label='Freelance Web-Developer'
-            className='flex flex-col lg:flex-row p-2 dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal my-4 md:hover:scale-110 m-2 scale-100 items-center cursor-pointer'
+            className='flex flex-col lg:flex-row p-2 dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal my-4 md:hover:scale-110 m-2 scale-100 items-center cursor-pointer'
             onClick={shopUrl}
           >
             <li className='lg:w-1/4 text-end mt-1 p-4'>
@@ -80,7 +80,7 @@ function Projects() {
           <div
             id='Block'
             aria-label='Freelance Web-Developer'
-            className='flex flex-col lg:flex-row p-2 dark:hover:bg-blue-light dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-20 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal my-4 md:hover:scale-110 m-2 scale-100 items-center cursor-pointer'
+            className='flex flex-col lg:flex-row p-2 dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal my-4 md:hover:scale-110 m-2 scale-100 items-center cursor-pointer'
             onClick={eventHorizonUrl}
           >
             <li className='lg:w-1/4 text-end mt-1 p-4'>
