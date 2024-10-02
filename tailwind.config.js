@@ -19,6 +19,9 @@ module.exports = {
       none: 'none',
     },
     extend: {
+      fontSize: {
+        
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',

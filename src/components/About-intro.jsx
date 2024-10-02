@@ -13,6 +13,10 @@ function AboutIntro() {
     );
   };
 
+  const linkedInUrl = () => {
+    window.open('https://www.linkedin.com/in/randalltaylor98/', '_blank');
+  };
+
   return (
     <div className='flex-col items-center xl:px-52 px-4 h-auto lg:px-24 2xl:mx-24 sm:mx-10'>
       <div className='text-left flex flex-col md:flex-row md:items-center sm:p-4'>
@@ -26,7 +30,7 @@ function AboutIntro() {
                 <span className='text-steel-dark dark:text-teal-400 font-serif text-xl sm:text-5xl'>
                   Hey, all!
                 </span>{' '}
-                I am skilled Full-Stack Developer with a strong foundation in both front-end and back-end development. I hold a Full-Stack Software Engineering Certificate from the University of Minnesota, demonstrating my commitment to continuous learning and growth in the field. Check it out by clicking on the badge to the right!
+                While you are checking out my portfolio, make sure to add me on <span className='text-blue-500 dark:text-teal-300 font-serif text-xl sm:text-3xl cursor-pointer hover:text-teal-400 dark:hover:text-yellow-400 duration-200' onClick={linkedInUrl}>LinkedIn.</span> I am a versatile and accomplished Full Stack Developer, with a strong foundation in both front-end and back-end development. I hold a Full Stack Web Development Certificate from the University of Minnesota, and am continuing my education while pursuing a BS in Computer Science at Colorado State University, demonstrating my commitment to continuous learning and growth in the field.
               </p>
               <div className='p-1'>
                 {/* Add the link to your Credly badge here */}
@@ -46,16 +50,16 @@ function AboutIntro() {
               </div>
             </div>
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
-              My technical skills include proficiency in front-end and back-end technologies, such as HTML5, CSS3, JavaScript, React, Bootstrap, Bulma, Axios, Tailwind, Handlebars, Node.js, Express, SQL, MongoDB, Mongoose, Graphql, REST-API, Heroku, Atlas, and DynamoDB. I am also well-versed in Agile methodologies and experienced in collaborative development.
+              As a Full Stack Developer at A Buying Center, I built and implemented an AWS DynamoDB backend and hosted the site on AWS Console using CloudFront, allowing customers to enter information and schedule appointments. I also created authorized access pages for employees to access and sort through customer data. My technical skills encompass a wide range of technologies, including HTML, CSS, JavaScript, React, Node.js, Express, SQL, MongoDB, and many more.
             </p>
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
               Throughout my career, I have successfully translated my technical expertise into practical application. In recent, as a Full-Stack Developer/Project Manager, I worked on projects like
-              <span className='text-steel-dark dark:text-teal-400 font-serif text-xl sm:text-3xl cursor-pointer' onClick={shopUrl}>
+              <span className='text-blue-500 dark:text-teal-300 font-serif text-xl sm:text-3xl cursor-pointer hover:text-teal-400 dark:hover:text-yellow-400 duration-200' onClick={shopUrl}>
                 {' '}
                 "123-Shop!"
               </span>{' '}
               and
-              <span className='text-steel-dark dark:text-teal-400 font-serif text-xl sm:text-3xl cursor-pointer' onClick={eventHorizonUrl}>
+              <span className='text-blue-500 dark:text-teal-300 font-serif text-xl sm:text-3xl cursor-pointer hover:text-teal-400 dark:hover:text-yellow-400 duration-200' onClick={eventHorizonUrl}>
                 {' '}
                 "Event-Planner,"
               </span>{' '}
@@ -63,17 +67,13 @@ function AboutIntro() {
               high-quality web applications. My problem-solving skills and meticulous approach to development have consistently produced consistent and outstanding results.
             </p>
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
-              Beyond software engineering, I have explored a diverse
-              professional background in sales, production management, and retail. During my time with Target, I developed skills in designing and implementing efficient back-room storage systems and optimizing labor utilization across multiple departments. Before my retail experience, I worked on adaptability and strong interpersonal skills, which was showcased in different roles from being the Head Lighting Designer and Production Manager at Purple Hat Productions to excelling as a Mortgage Banker at Network Capital.
+              Beyond software engineering, I have a diverse professional background, displaying my organizational, interpersonal, and problem-solving abilities in different roles and industries. I have designed and implemented efficient back-room storage solutions for Target, reducing lost items and increasing productivity. I also served as the Head Lighting Designer and Production Manager at Purple Hat Productions, managing a team of freelance stagehands and delivering high-quality lighting and sound for over 40 productions and concerts.
             </p>
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
-              Most notably in my time in sales, I received the President's Award in 2019 for exceptional sales leadership at a Honda dealership, emphasizing my ability to build strong customer relationships and exceed performance goals. I have also generously contributed time to the community, volunteering extensively with the Community Theatre.
+              I am known for my adaptability, dedication, and innovation, as well as my ability to build strong customer relationships and exceed performance goals. I received the President's Award in 2019 for my exceptional sales leadership at a Corwin Honda, and I have generously contributed my time to the community, volunteering extensively with the Fargo-Moorhead Community Theatre. My journey as a Full Stack Developer is marked by continuous learning, collaboration, and excellence.
             </p>
             <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
-              I am a versatile and accomplished professional, known for my technical prowess, problem-solving abilities, and dedication to both personal and community growth. My journey as a Full-Stack Software Developer is marked by continuous learning, adaptability, and a commitment to excellence.
-            </p>
-            <p className='text-ice-dark dark:text-ice-light dark:text-opacity-85 font-sans text-lg sm:text-2xl p-1 py-4'>
-              Thank you all for stopping by, go check out my projects below!
+              Thank you all for stopping by! go check out my projects below and send me a message on <span className='text-blue-500 dark:text-teal-300 font-serif text-xl sm:text-3xl cursor-pointer hover:text-teal-400 dark:hover:text-yellow-400 duration-200' onClick={linkedInUrl}>LinkedIn</span> if you want to connect!
             </p>
           </div>
         </div>

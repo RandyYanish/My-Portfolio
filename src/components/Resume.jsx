@@ -29,9 +29,9 @@ function Resume() {
                 className='text-lg md:text-xl lg:text-2xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
                 <span>
-                  Full-Stack Developer • <span id='spacer'></span>
+                  Project Manager/Full-Stack Developer • <span id='spacer'></span>
                   <span className='inline-block whitespace-nowrap'>
-                    A Buying Center
+                    A Buying Center and Detail-City
                   </span>
                 </span>
               </h3>
@@ -41,57 +41,16 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    •	Developed a lead generation site - deployed on EC2 and distributed on CloudFront - for consumers to set up appointments of appraisal, which increased lead generation and lowered lead cost.
+                    •	Developed a Dealer Management System on AWS servers for managing dealership inventory with React, Tailwind, DynamoDB, EC2, Route 53, and Node.js using a mobile-first design strategy.
                   </li>
                   <li>
-                    •	Translated marketing sources to the front-end of the site using a mobile-first design strategy with React and Tailwind.
+                    •	Wrote a CRUD application for managing and handling database logic and storing customer information.
                   </li>
                   <li>
-                    •	Prepared comparative informational materials on Dealership Management Systems (DMS), allowing for a tailored set up at a lower cost.
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </div>
-          <div id='Spacer' className='w-1/4 md:flex hidden'></div>
-        </div>
-        <div id='Resume-Experience' className='flex flex-row'>
-          <div id='Spacer' className='w-1/4 md:flex hidden'></div>
-          <div
-            id='Block'
-            aria-label='Specialty Sales at Target'
-            className='flex flex-row dark:hover:bg-opacity-20 dark:bg-blue-light hover:bg-ice-dark bg-ice-dark dark:md:bg-transparent md:bg-transparent dark:md:hover:bg-opacity-10 dark:bg-opacity-10 md:hover:bg-opacity-10 bg-opacity-10 hover:bg-opacity-20 overflow-hidden rounded-xl group duration-300 shadow-lg md:shadow-transparent shadow-metal dark:md:shadow-transparent dark:md:hover:shadow-metal md:hover:shadow-metal dark:shadow-metal lg:w-1/2 my-4 md:hover:scale-110 m-2 scale-100'
-          >
-            <li className='w-1/8 text-end p-2 mt-1'>
-              <h3
-                id='Time'
-                className='text-sm md:text-base lg:text-xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
-              >
-                Oct. 2022 - Dec. 2023
-              </h3>
-            </li>
-            <li className='w-7/8 text-left duration-300 p-2'>
-              <h3
-                id='Role'
-                className='text-lg md:text-xl lg:text-2xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
-              >
-                <span>
-                  Specialty Sales • <span id='spacer'></span>
-                  <span className='inline-block whitespace-nowrap'>Target</span>
-                </span>
-              </h3>
-              <div
-                id='Bullet-Points'
-                className='text-base md:text-lg lg:text-xl dark:md:text-slate-400 dark:group-hover:text-ice-light dark:text-ice-light md:text-steel group-hover:text-steel-dark text-steel-dark duration-300'
-              >
-                <ul>
-                  <li>
-                    • Designed and implemented the back-room storage for both
-                    the Electronics department and the Beauty department.
+                    •	Maintained the site and continued development using marketing sources; improved web-flow and increased lead generation by 20%.
                   </li>
                   <li>
-                    • Worked across multiple departments to ensure efficient
-                    maximum output of labor use.
+                    •	Coordinated implementation of Google Workspace, Google Voice, and Google Business.
                   </li>
                 </ul>
               </div>
@@ -120,7 +79,7 @@ function Resume() {
                 className='text-lg md:text-xl lg:text-2xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
                 <span>
-                  Production Manager & Lighting Designer •
+                  Lighting Designer/Production Manager •
                   <span id='spacer'></span>
                   <span className='inline-block whitespace-nowrap'>
                     Purple Hat Productions, Other
@@ -133,19 +92,19 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    • Head Lighting Designer for over 40 productions and
-                    concerts. Managed a group of 8-10 freelance stagehands.
+                    •	Directed the lighting design for over 40 productions and concerts.
                   </li>
                   <li>
-                    • Facilitated the shipping and delivery/setup of
-                    professional lighting equipment and established
-                    relationships with touring companies to program and run
-                    concerts and events.
+                    •	Managed teams of 8-10 stagehands and developed an efficient plot design which led to a 20% reduction in setup time.
                   </li>
                   <li>
-                    • Multi tasked objective completion and timeline
-                    follow-through while working with several different
-                    production groups (i.e., Sound, Lighting, Props).
+                    •	Coordinated the loading, shipping, and setup of professional lighting equipment to production sites.
+                  </li>
+                  <li>
+                    •	Designed a base plot on the lighting board to decrease the amount of programming by 2 hours.
+                  </li>
+                  <li>
+                    •	Optimized the setup of lighting equipment to be easily repeatable with the stagehands that I lead.
                   </li>
                 </ul>
               </div>
@@ -186,10 +145,16 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    •	Achieved the highest talking time and connected calls, which increased approved applications and led to better loan rates for customers.
+                    •	Maintained daily goals of 5 applications and 5 hours of call time
                   </li>
                   <li>
-                    •	Consistently improved my customer communication skills, resulting in increased customer retention throughout negotiations.
+                    •	Increased weekly loan submissions by 30%.
+                  </li>
+                  <li>
+                    •	Analyzed customer financial liabilities and crafted customized refinance packages.
+                  </li>
+                  <li>
+                    •	Developed a call script that decreased time spent on each call by 15%.
                   </li>
                 </ul>
               </div>
@@ -209,7 +174,7 @@ function Resume() {
                 id='Time'
                 className='text-sm md:text-base lg:text-xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
-                Jul. 2016 - Oct. 2022
+                Oct. 2018 - Jan. 2020
               </h3>
             </li>
             <li className='w-7/8 text-left duration-300 p-2'>
@@ -218,8 +183,8 @@ function Resume() {
                 className='text-lg md:text-xl lg:text-2xl dark:md:text-ice-light md:text-magenta-dark dark:group-hover:text-teal-500 dark:text-teal-500 text-magenta group-hover:text-magenta font-bold duration-300'
               >
                 <span>
-                  Sales Professional & Leasing Consultant •
-                  <span id='spacer'></span>
+                  Sales Professional & Leasing Consultant • 
+                  <span id='spacer'> </span>
                   <span className='inline-block whitespace-nowrap'>
                     Corwin Honda
                   </span>
@@ -231,10 +196,13 @@ function Resume() {
               >
                 <ul>
                   <li>
-                    •	Received the Honda 2019 Presidents Award for sales leadership on new car sales.
+                    •	Consistently maintained a closing rate above 65% on first presentation of deals and 90% on final offers.
                   </li>
                   <li>
                     •	Increased personal customer engagement and gross profits from sales by 15% by improving product knowledge and communication skills.
+                  </li>
+                  <li>
+                    •	Ranked in the top 20% of total sales per month between all dealerships in the region.
                   </li>
                 </ul>
               </div>
