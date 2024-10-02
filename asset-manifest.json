@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.558febdd.css",
-    "main.js": "/My-Portfolio/static/js/main.ff512a1a.js",
+    "main.css": "/My-Portfolio/static/css/main.5d0b672b.css",
+    "main.js": "/My-Portfolio/static/js/main.07108535.js",
     "static/media/Event-Horizon.png": "/My-Portfolio/static/media/Event-Horizon.1726d54f8a79deab440f.png",
     "static/media/Taylor-Randall-Headshot.jpg": "/My-Portfolio/static/media/Taylor-Randall-Headshot.f578f9402d4d3953e8ae.jpg",
     "static/media/123-Shop.png": "/My-Portfolio/static/media/123-Shop.2de17570e37e5624cea7.png",
     "static/media/credlyBadge.png": "/My-Portfolio/static/media/credlyBadge.db97afa96c29e971ffc7.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.558febdd.css.map": "/My-Portfolio/static/css/main.558febdd.css.map",
-    "main.ff512a1a.js.map": "/My-Portfolio/static/js/main.ff512a1a.js.map"
+    "main.5d0b672b.css.map": "/My-Portfolio/static/css/main.5d0b672b.css.map",
+    "main.07108535.js.map": "/My-Portfolio/static/js/main.07108535.js.map"
   },
   "entrypoints": [
-    "static/css/main.558febdd.css",
-    "static/js/main.ff512a1a.js"
+    "static/css/main.5d0b672b.css",
+    "static/js/main.07108535.js"
   ]
 }
